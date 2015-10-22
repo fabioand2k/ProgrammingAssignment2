@@ -1,6 +1,9 @@
 ## This function creates a special "matrix" object that can cache its inverse.
 ## First: Caching Inverse of a Matrix
 ## Second: Store Matrix, cache the inverse
+## to test;
+## trial_matrix <- makeCacheMatrix(matrix(1:12, 4, 2))
+## then trial_matrix$get()
 
 makeCacheMatrix <- function(x = matrix()) {
   var_inv <- NULL
